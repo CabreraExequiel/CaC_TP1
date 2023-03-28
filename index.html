@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <h1><U>Centro de adopción de mascotas</U></h1>
+        <img class="img" src="img/img.jpg" alt="mascotas">
+        <p><strong>A continuación ingreses sus datos y le enviaremos un correo con los pasos a seguir.</strong></p>
+        <div class="divForm">  
+            <form action="" method="">
+            <label for="name">Nombre:</label>
+            <input type="text" placeholder="Ingrese su nombre" id="name">
+            <br>
+            <label for="lastName">Apellido:</label>
+            <input type="text" placeholder="Ingrese su apellido" id="lastName">
+            <br>
+            <label for="age">Edad:  </label>
+            <input type="number" placeholder="Ingrese su edad" id="age">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Ingrese su E-mail" id="email">
+            <br>
+            <input type="reset">
+            <input type="submit" onclick="mostrarAlerta()">
+            </form>
+         </div>  
+    </div>
+
+   <script>
+    function mostrarAlerta(){
+        alert("Formulario enviado");
+    }
+   </script>
+</body>
+</html>
